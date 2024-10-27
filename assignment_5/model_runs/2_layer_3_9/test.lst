@@ -1,0 +1,1484 @@
+                                  MODFLOW-2005     
+      U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                            VERSION 1.12.00 2/3/2017
+
+ LIST FILE: C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test.lst
+                         UNIT    7
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test_1D.ba6
+ FILE TYPE:BAS6   UNIT    8   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test_1D.lpf
+ FILE TYPE:LPF   UNIT   11   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test.pcg
+ FILE TYPE:PCG   UNIT   19   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test.oc
+ FILE TYPE:OC   UNIT   22   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test_1D.dis
+ FILE TYPE:DIS   UNIT   10   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test.lmt
+ FILE TYPE:LMT6   UNIT   66   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test.bud
+ FILE TYPE:DATA(BINARY)   UNIT   34   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/testhead.dat
+ FILE TYPE:DATA(BINARY)   UNIT   51   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ OPENING C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/ibound.dat
+ FILE TYPE:DATA   UNIT   52   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ BAS -- BASIC PACKAGE, VERSION 7, 5/2/2005 INPUT READ FROM UNIT    8
+ 
+ MODFLOW was compiled using mixed precision
+ Precision of REAL variables:           6
+ Precision of DOUBLE PRECISION variables:          15
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT   10
+   50 LAYERS         1 ROWS         1 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS DAYS
+ MODEL LENGTH UNIT IS METERS
+  Confining bed flag for each layer:
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0
+
+                     DELR =  0.300000    
+
+                     DELC =  0.300000    
+
+ TOP ELEVATION OF LAYER 1 =   0.00000    
+
+   MODEL LAYER BOTTOM EL. = -2.000000E-02 FOR LAYER   1
+
+   MODEL LAYER BOTTOM EL. = -4.000000E-02 FOR LAYER   2
+
+   MODEL LAYER BOTTOM EL. = -6.000000E-02 FOR LAYER   3
+
+   MODEL LAYER BOTTOM EL. = -8.000000E-02 FOR LAYER   4
+
+   MODEL LAYER BOTTOM EL. = -0.100000     FOR LAYER   5
+
+   MODEL LAYER BOTTOM EL. = -0.120000     FOR LAYER   6
+
+   MODEL LAYER BOTTOM EL. = -0.140000     FOR LAYER   7
+
+   MODEL LAYER BOTTOM EL. = -0.160000     FOR LAYER   8
+
+   MODEL LAYER BOTTOM EL. = -0.180000     FOR LAYER   9
+
+   MODEL LAYER BOTTOM EL. = -0.200000     FOR LAYER  10
+
+   MODEL LAYER BOTTOM EL. = -0.220000     FOR LAYER  11
+
+   MODEL LAYER BOTTOM EL. = -0.240000     FOR LAYER  12
+
+   MODEL LAYER BOTTOM EL. = -0.260000     FOR LAYER  13
+
+   MODEL LAYER BOTTOM EL. = -0.280000     FOR LAYER  14
+
+   MODEL LAYER BOTTOM EL. = -0.300000     FOR LAYER  15
+
+   MODEL LAYER BOTTOM EL. = -0.320000     FOR LAYER  16
+
+   MODEL LAYER BOTTOM EL. = -0.340000     FOR LAYER  17
+
+   MODEL LAYER BOTTOM EL. = -0.360000     FOR LAYER  18
+
+   MODEL LAYER BOTTOM EL. = -0.380000     FOR LAYER  19
+
+   MODEL LAYER BOTTOM EL. = -0.400000     FOR LAYER  20
+
+   MODEL LAYER BOTTOM EL. = -0.420000     FOR LAYER  21
+
+   MODEL LAYER BOTTOM EL. = -0.440000     FOR LAYER  22
+
+   MODEL LAYER BOTTOM EL. = -0.460000     FOR LAYER  23
+
+   MODEL LAYER BOTTOM EL. = -0.480000     FOR LAYER  24
+
+   MODEL LAYER BOTTOM EL. = -0.500000     FOR LAYER  25
+
+   MODEL LAYER BOTTOM EL. = -0.520000     FOR LAYER  26
+
+   MODEL LAYER BOTTOM EL. = -0.540000     FOR LAYER  27
+
+   MODEL LAYER BOTTOM EL. = -0.560000     FOR LAYER  28
+
+   MODEL LAYER BOTTOM EL. = -0.580000     FOR LAYER  29
+
+   MODEL LAYER BOTTOM EL. = -0.600000     FOR LAYER  30
+
+   MODEL LAYER BOTTOM EL. = -0.620000     FOR LAYER  31
+
+   MODEL LAYER BOTTOM EL. = -0.640000     FOR LAYER  32
+
+   MODEL LAYER BOTTOM EL. = -0.660000     FOR LAYER  33
+
+   MODEL LAYER BOTTOM EL. = -0.680000     FOR LAYER  34
+
+   MODEL LAYER BOTTOM EL. = -0.700000     FOR LAYER  35
+
+   MODEL LAYER BOTTOM EL. = -0.720000     FOR LAYER  36
+
+   MODEL LAYER BOTTOM EL. = -0.740000     FOR LAYER  37
+
+   MODEL LAYER BOTTOM EL. = -0.760000     FOR LAYER  38
+
+   MODEL LAYER BOTTOM EL. = -0.780000     FOR LAYER  39
+
+   MODEL LAYER BOTTOM EL. = -0.800000     FOR LAYER  40
+
+   MODEL LAYER BOTTOM EL. = -0.820000     FOR LAYER  41
+
+   MODEL LAYER BOTTOM EL. = -0.840000     FOR LAYER  42
+
+   MODEL LAYER BOTTOM EL. = -0.860000     FOR LAYER  43
+
+   MODEL LAYER BOTTOM EL. = -0.880000     FOR LAYER  44
+
+   MODEL LAYER BOTTOM EL. = -0.900000     FOR LAYER  45
+
+   MODEL LAYER BOTTOM EL. = -0.920000     FOR LAYER  46
+
+   MODEL LAYER BOTTOM EL. = -0.940000     FOR LAYER  47
+
+   MODEL LAYER BOTTOM EL. = -0.960000     FOR LAYER  48
+
+   MODEL LAYER BOTTOM EL. = -0.980000     FOR LAYER  49
+
+   MODEL LAYER BOTTOM EL. =  -1.00000     FOR LAYER  50
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+ ----------------------------------------------------------------------------
+        1         1.000000          1                    1.000         SS
+
+ STEADY-STATE SIMULATION
+
+
+
+ 
+ # basic package file --- x-section 50 layers, 1 column                          
+ CROSS SECTION OPTION IS SPECIFIED
+
+
+
+                     BOUNDARY ARRAY FOR CROSS SECTION
+ READING ON UNIT    8 WITH FORMAT: (FREE)              
+
+        1
+ ........
+   1   -1
+   2    1
+   3    1
+   4    1
+   5    1
+   6    1
+   7    1
+   8    1
+   9    1
+  10    1
+  11    1
+  12    1
+  13    1
+  14    1
+  15    1
+  16    1
+  17    1
+  18    1
+  19    1
+  20    1
+  21    1
+  22    1
+  23    1
+  24    1
+  25    1
+  26    1
+  27    1
+  28    1
+  29    1
+  30    1
+  31    1
+  32    1
+  33    1
+  34    1
+  35    1
+  36    1
+  37    1
+  38    1
+  39    1
+  40    1
+  41    1
+  42    1
+  43    1
+  44    1
+  45    1
+  46    1
+  47    1
+  48    1
+  49    1
+  50   -1
+
+ AQUIFER HEAD WILL BE SET TO   999.99     AT ALL NO-FLOW NODES (IBOUND=0).
+
+
+
+                       INITIAL HEAD FOR CROSS SECTION
+ READING ON UNIT    8 WITH FORMAT: (FREE)              
+
+           1
+ ...........
+   1      1.5
+   2      1.5
+   3      1.5
+   4      1.5
+   5      1.5
+   6      1.5
+   7      1.5
+   8      1.5
+   9      1.5
+  10      1.5
+  11      1.5
+  12      1.5
+  13      1.5
+  14      1.5
+  15      1.5
+  16      1.5
+  17      1.5
+  18      1.5
+  19      1.5
+  20      1.5
+  21      1.5
+  22      1.5
+  23      1.5
+  24      1.5
+  25      1.5
+  26      1.5
+  27      1.5
+  28      1.5
+  29      1.5
+  30      1.5
+  31      1.5
+  32      1.5
+  33      1.5
+  34      1.5
+  35      1.5
+  36      1.5
+  37      1.5
+  38      1.5
+  39      1.5
+  40      1.5
+  41      1.5
+  42      1.5
+  43      1.5
+  44      1.5
+  45      1.5
+  46      1.5
+  47      1.5
+  48      1.5
+  49      1.5
+  50      1.5
+
+ OUTPUT CONTROL IS SPECIFIED ONLY AT TIME STEPS FOR WHICH OUTPUT IS DESIRED
+ COMPACT CELL-BY-CELL BUDGET FILES WILL BE WRITTEN
+ AUXILIARY DATA WILL BE SAVED IN CELL-BY-CELL BUDGET FILES
+ IBOUND WILL BE SAVED ON UNIT   52
+ HEAD PRINT FORMAT CODE IS  20    DRAWDOWN PRINT FORMAT CODE IS   0
+ HEADS WILL BE SAVED ON UNIT   51    DRAWDOWNS WILL BE SAVED ON UNIT    0
+
+ LPF -- LAYER-PROPERTY FLOW PACKAGE, VERSION 7, 5/2/2005
+         INPUT READ FROM UNIT   11
+ # LPF package inputs
+ CELL-BY-CELL FLOWS WILL BE SAVED ON UNIT   34
+ HEAD AT CELLS THAT CONVERT TO DRY=  1.00000E+30
+ No named parameters
+
+   LAYER FLAGS:
+ LAYER       LAYTYP        LAYAVG         CHANI        LAYVKA        LAYWET
+ ---------------------------------------------------------------------------
+    1             1             0     1.000E+00             0             0
+    2             0             0     1.000E+00             0             0
+    3             0             0     1.000E+00             0             0
+    4             0             0     1.000E+00             0             0
+    5             0             0     1.000E+00             0             0
+    6             0             0     1.000E+00             0             0
+    7             0             0     1.000E+00             0             0
+    8             0             0     1.000E+00             0             0
+    9             0             0     1.000E+00             0             0
+   10             0             0     1.000E+00             0             0
+   11             0             0     1.000E+00             0             0
+   12             0             0     1.000E+00             0             0
+   13             0             0     1.000E+00             0             0
+   14             0             0     1.000E+00             0             0
+   15             0             0     1.000E+00             0             0
+   16             0             0     1.000E+00             0             0
+   17             0             0     1.000E+00             0             0
+   18             0             0     1.000E+00             0             0
+   19             0             0     1.000E+00             0             0
+   20             0             0     1.000E+00             0             0
+   21             0             0     1.000E+00             0             0
+   22             0             0     1.000E+00             0             0
+   23             0             0     1.000E+00             0             0
+   24             0             0     1.000E+00             0             0
+   25             0             0     1.000E+00             0             0
+   26             0             0     1.000E+00             0             0
+   27             0             0     1.000E+00             0             0
+   28             0             0     1.000E+00             0             0
+   29             0             0     1.000E+00             0             0
+   30             0             0     1.000E+00             0             0
+   31             0             0     1.000E+00             0             0
+   32             0             0     1.000E+00             0             0
+   33             0             0     1.000E+00             0             0
+   34             0             0     1.000E+00             0             0
+   35             0             0     1.000E+00             0             0
+   36             0             0     1.000E+00             0             0
+   37             0             0     1.000E+00             0             0
+   38             0             0     1.000E+00             0             0
+   39             0             0     1.000E+00             0             0
+   40             0             0     1.000E+00             0             0
+   41             0             0     1.000E+00             0             0
+   42             0             0     1.000E+00             0             0
+   43             0             0     1.000E+00             0             0
+   44             0             0     1.000E+00             0             0
+   45             0             0     1.000E+00             0             0
+   46             0             0     1.000E+00             0             0
+   47             0             0     1.000E+00             0             0
+   48             0             0     1.000E+00             0             0
+   49             0             0     1.000E+00             0             0
+   50             0             0     1.000E+00             0             0
+
+   INTERPRETATION OF LAYER FLAGS:
+                        INTERBLOCK     HORIZONTAL    DATA IN
+         LAYER TYPE   TRANSMISSIVITY   ANISOTROPY   ARRAY VKA   WETTABILITY
+ LAYER      (LAYTYP)      (LAYAVG)       (CHANI)      (LAYVKA)      (LAYWET)
+ ---------------------------------------------------------------------------
+    1   CONVERTIBLE      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    2      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    3      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    4      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    5      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    6      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    7      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    8      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+    9      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   10      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   11      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   12      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   13      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   14      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   15      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   16      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   17      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   18      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   19      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   20      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   21      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   22      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   23      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   24      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   25      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   26      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   27      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   28      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   29      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   30      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   31      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   32      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   33      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   34      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   35      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   36      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   37      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   38      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   39      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   40      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   41      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   42      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   43      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   44      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   45      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   46      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   47      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   48      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   49      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+   50      CONFINED      HARMONIC     1.000E+00    VERTICAL K  NON-WETTABLE
+
+ WETTING CAPABILITY IS NOT ACTIVE IN ANY LAYER
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   1
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   1
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   2
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   2
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   3
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   3
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   4
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   4
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   5
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   5
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   6
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   6
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   7
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   7
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   8
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   8
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER   9
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER   9
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  10
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  10
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  11
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  11
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  12
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  12
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  13
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  13
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  14
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  14
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  15
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  15
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  16
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  16
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  17
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  17
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  18
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  18
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  19
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  19
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  20
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  20
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  21
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  21
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  22
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  22
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  23
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  23
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  24
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  24
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  25
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  25
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    3.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  26
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  26
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  27
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  27
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  28
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  28
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  29
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  29
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  30
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  30
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  31
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  31
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  32
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  32
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  33
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  33
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  34
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  34
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  35
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  35
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  36
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  36
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  37
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  37
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  38
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  38
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  39
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  39
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  40
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  40
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  41
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  41
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  42
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  42
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  43
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  43
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  44
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  44
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  45
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  45
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  46
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  46
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  47
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  47
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  48
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  48
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  49
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  49
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+              HYD. COND. ALONG ROWS FOR LAYER  50
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+
+
+                VERTICAL HYD. COND. FOR LAYER  50
+ READING ON UNIT   11 WITH FORMAT: (FREE)              
+
+            1
+ ............
+   1    9.000    
+
+ PCG -- CONJUGATE-GRADIENT SOLUTION PACKAGE, VERSION 7, 5/2/2005
+ # Preconditioned conjugate-gradient package
+ MAXIMUM OF     50 CALLS OF SOLUTION ROUTINE
+ MAXIMUM OF     30 INTERNAL ITERATIONS PER CALL TO SOLUTION ROUTINE
+ MATRIX PRECONDITIONING TYPE :    1
+
+
+
+                                    SOLUTION BY THE CONJUGATE-GRADIENT METHOD
+                                   -------------------------------------------
+                    MAXIMUM NUMBER OF CALLS TO PCG ROUTINE =       50
+                        MAXIMUM ITERATIONS PER CALL TO PCG =       30
+                               MATRIX PRECONDITIONING TYPE =        1
+        RELAXATION FACTOR (ONLY USED WITH PRECOND. TYPE 1) =    0.10000E+01
+ PARAMETER OF POLYNOMIAL PRECOND. = 2 (2) OR IS CALCULATED :        2
+                         HEAD CHANGE CRITERION FOR CLOSURE =    0.10000E-02
+                     RESIDUAL CHANGE CRITERION FOR CLOSURE =    0.10000E-02
+            PCG HEAD AND RESIDUAL CHANGE PRINTOUT INTERVAL =        1
+     PRINTING FROM SOLVER IS LIMITED(1) OR SUPPRESSED (>1) =        1
+                            STEADY-STATE DAMPING PARAMETER =    0.10000E+01
+                               TRANSIENT DAMPING PARAMETER =    0.10000E+01
+
+ WARNING READING LMT PACKAGE INPUT DATA:
+ [STANDARD] HEADER NO LONGER SUPPORTED; [EXTENDED] HEADER USED INSTEAD.
+
+
+ ***Link-MT3DMS Package v7***
+ OPENING LINK-MT3DMS OUTPUT FILE: C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2_layer_3_9/test.flo                                                                                                        
+ ON UNIT NUMBER:   333
+ FILE TYPE: UNFORMATTED
+ HEADER OPTION: EXTENDED
+ ***Link-MT3DMS Package v7***
+
+1
+                            STRESS PERIOD NO.    1, LENGTH =   1.000000    
+                            -----------------------------------------------
+
+                              NUMBER OF TIME STEPS =     1
+
+                               MULTIPLIER FOR DELT =     1.000
+
+                            INITIAL TIME STEP SIZE =   1.000000    
+ 
+ SOLVING FOR HEAD 
+
+
+     1 CALLS TO PCG ROUTINE FOR TIME STEP   1 IN STRESS PERIOD    1
+     1 TOTAL ITERATIONS
+
+ OUTPUT CONTROL FOR STRESS PERIOD    1   TIME STEP    1
+    PRINT HEAD FOR ALL LAYERS
+    SAVE HEAD FOR ALL LAYERS
+    PRINT BUDGET
+    SAVE BUDGET
+    SAVE IBOUND FOR ALL LAYERS
+ UBDSV2 SAVING "   CONSTANT HEAD" ON UNIT  34 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW LOWER FACE " ON UNIT  34 AT TIME STEP  1, STRESS PERIOD   1
+
+ SAVING SATURATED THICKNESS AND FLOW TERMS ON UNIT  333 FOR MT3DMS
+ BY THE LINK-MT3DMS PACKAGE V7 AT TIME STEP    1, STRESS PERIOD    1
+
+1
+             HEAD FOR CROSS SECTION AT END OF TIME STEP  1 IN STRESS PERIOD    1
+ -------------------------------------------------------------------------------
+
+            1
+ ............
+   1    1.500    
+   2    1.500    
+   3    1.500    
+   4    1.500    
+   5    1.500    
+   6    1.501    
+   7    1.501    
+   8    1.501    
+   9    1.501    
+  10    1.501    
+  11    1.501    
+  12    1.501    
+  13    1.501    
+  14    1.501    
+  15    1.502    
+  16    1.502    
+  17    1.502    
+  18    1.502    
+  19    1.502    
+  20    1.502    
+  21    1.502    
+  22    1.502    
+  23    1.503    
+  24    1.503    
+  25    1.503    
+  26    1.503    
+  27    1.503    
+  28    1.503    
+  29    1.503    
+  30    1.503    
+  31    1.503    
+  32    1.503    
+  33    1.503    
+  34    1.503    
+  35    1.503    
+  36    1.503    
+  37    1.503    
+  38    1.503    
+  39    1.503    
+  40    1.503    
+  41    1.503    
+  42    1.503    
+  43    1.503    
+  44    1.503    
+  45    1.504    
+  46    1.504    
+  47    1.504    
+  48    1.504    
+  49    1.504    
+  50    1.504    
+
+ HEAD WILL BE SAVED ON UNIT   51 AT END OF TIME STEP    1, STRESS PERIOD    1
+
+ IBOUND WILL BE SAVED ON UNIT   52 AT END OF TIME STEP    1, STRESS PERIOD    1
+1
+  VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP    1, STRESS PERIOD   1
+  ------------------------------------------------------------------------------
+
+     CUMULATIVE VOLUMES      L**3       RATES FOR THIS TIME STEP      L**3/T
+     ------------------                 ------------------------
+
+           IN:                                      IN:
+           ---                                      ---
+             STORAGE =           0.0000               STORAGE =           0.0000
+       CONSTANT HEAD =       1.5374E-03         CONSTANT HEAD =       1.5374E-03
+
+            TOTAL IN =       1.5374E-03              TOTAL IN =       1.5374E-03
+
+          OUT:                                     OUT:
+          ----                                     ----
+             STORAGE =           0.0000               STORAGE =           0.0000
+       CONSTANT HEAD =       1.5374E-03         CONSTANT HEAD =       1.5374E-03
+
+           TOTAL OUT =       1.5374E-03             TOTAL OUT =       1.5374E-03
+
+            IN - OUT =       1.3970E-09              IN - OUT =       1.3970E-09
+
+ PERCENT DISCREPANCY =           0.00     PERCENT DISCREPANCY =           0.00
+
+
+
+
+
+
+         TIME SUMMARY AT END OF TIME STEP    1 IN STRESS PERIOD    1
+                    SECONDS     MINUTES      HOURS       DAYS        YEARS
+                    -----------------------------------------------------------
+   TIME STEP LENGTH  86400.      1440.0      24.000      1.0000     2.73785E-03
+ STRESS PERIOD TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
+         TOTAL TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
+1
+
+ Run end date and time (yyyy/mm/dd hh:mm:ss): 2024/10/21 12:20:11
+ Elapsed run time:  0.018 Seconds
+

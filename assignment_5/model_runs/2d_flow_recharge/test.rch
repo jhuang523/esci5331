@@ -1,0 +1,4 @@
+# recharge package 
+     3    -1        NRCHOP,IRCHBD
+     1              INRECH
+CONSTANT         0.0005   RECH (PERIOD 1) 

@@ -1,0 +1,4 @@
+# Preconditioned conjugate-gradient package
+        50        30         1      MXITER, ITER1, NPCOND
+  0000.001      .001        1.         2         1         1      1.00
+ HCLOSE,      RCLOSE,    RELAX,    NBPOL,     IPRPCG,   MUTPCG    damp

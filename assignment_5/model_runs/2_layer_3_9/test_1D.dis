@@ -1,0 +1,56 @@
+ 50  1  1  1  4  2   NLAY,NROW,NCOL,NPER,ITMUNI,LENUNI
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+CONSTANT            0.3   DELR
+CONSTANT            0.3   DELC
+CONSTANT              0   TOP of system
+CONSTANT          -0.02   Layer BOTM layer    1
+CONSTANT          -0.04   Layer BOTM layer    2
+CONSTANT          -0.06   Layer BOTM layer    3
+CONSTANT          -0.08   Layer BOTM layer    4
+CONSTANT           -0.1   Layer BOTM layer    5
+CONSTANT          -0.12   Layer BOTM layer    6
+CONSTANT          -0.14   Layer BOTM layer    7
+CONSTANT          -0.16   Layer BOTM layer    8
+CONSTANT          -0.18   Layer BOTM layer    9
+CONSTANT           -0.2   Layer BOTM layer   10
+CONSTANT          -0.22   Layer BOTM layer   11
+CONSTANT          -0.24   Layer BOTM layer   12
+CONSTANT          -0.26   Layer BOTM layer   13
+CONSTANT          -0.28   Layer BOTM layer   14
+CONSTANT           -0.3   Layer BOTM layer   15
+CONSTANT          -0.32   Layer BOTM layer   16
+CONSTANT          -0.34   Layer BOTM layer   17
+CONSTANT          -0.36   Layer BOTM layer   18
+CONSTANT          -0.38   Layer BOTM layer   19
+CONSTANT           -0.4   Layer BOTM layer   20
+CONSTANT          -0.42   Layer BOTM layer   21
+CONSTANT          -0.44   Layer BOTM layer   22
+CONSTANT          -0.46   Layer BOTM layer   23
+CONSTANT          -0.48   Layer BOTM layer   24
+CONSTANT           -0.5   Layer BOTM layer   25
+CONSTANT          -0.52   Layer BOTM layer   26
+CONSTANT          -0.54   Layer BOTM layer   27
+CONSTANT          -0.56   Layer BOTM layer   28
+CONSTANT          -0.58   Layer BOTM layer   29
+CONSTANT           -0.6   Layer BOTM layer   30
+CONSTANT          -0.62   Layer BOTM layer   31
+CONSTANT          -0.64   Layer BOTM layer   32
+CONSTANT          -0.66   Layer BOTM layer   33
+CONSTANT          -0.68   Layer BOTM layer   34
+CONSTANT           -0.7   Layer BOTM layer   35
+CONSTANT          -0.72   Layer BOTM layer   36
+CONSTANT          -0.74   Layer BOTM layer   37
+CONSTANT          -0.76   Layer BOTM layer   38
+CONSTANT          -0.78   Layer BOTM layer   39
+CONSTANT           -0.8   Layer BOTM layer   40
+CONSTANT          -0.82   Layer BOTM layer   41
+CONSTANT          -0.84   Layer BOTM layer   42
+CONSTANT          -0.86   Layer BOTM layer   43
+CONSTANT          -0.88   Layer BOTM layer   44
+CONSTANT           -0.9   Layer BOTM layer   45
+CONSTANT          -0.92   Layer BOTM layer   46
+CONSTANT          -0.94   Layer BOTM layer   47
+CONSTANT          -0.96   Layer BOTM layer   48
+CONSTANT          -0.98   Layer BOTM layer   49
+CONSTANT             -1   Layer BOTM layer   50
+ 1 1 1 SS        PERLEN, NSTP, TSMULT, Ss/Tr (stress period    1)

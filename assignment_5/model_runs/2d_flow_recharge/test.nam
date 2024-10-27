@@ -1,0 +1,11 @@
+LIST          7 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test.lst 
+BAS6          8 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test_1D.ba6 
+LPF          11 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test_1D.lpf 
+RCH          18 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test.rch 
+PCG          19 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test.pcg 
+OC           22 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test.oc 
+DIS          10 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test_1D.dis 
+LMT6         66 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test.lmt 
+DATA(BINARY) 34 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/test.bud 
+DATA(BINARY) 51 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/testhead.dat 
+DATA         52 C:/Users/huan1428/Documents/esci5331_hydro_modeling/assignment_5/model_runs/2d_flow_recharge/ibound.dat 

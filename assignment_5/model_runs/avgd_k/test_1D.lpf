@@ -1,0 +1,207 @@
+# LPF package inputs
+34 1e+30 0    ILPFCB,HDRY,NPLPF
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0     LAYTYP
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0     LAYAVE
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1     CHANI
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0     LAYVKA
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0     LAYWET
+INTERNAL   1.000E-00 (FREE)    0            HY layer  1
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  1
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  2
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  2
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  3
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  3
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  4
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  4
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  5
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  5
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  6
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  6
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  7
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  7
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  8
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  8
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  9
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  9
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  10
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  10
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  11
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  11
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  12
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  12
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  13
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  13
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  14
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  14
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  15
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  15
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  16
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  16
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  17
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  17
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  18
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  18
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  19
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  19
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  20
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  20
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  21
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  21
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  22
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  22
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  23
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  23
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  24
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  24
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  25
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  25
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  26
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  26
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  27
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  27
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  28
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  28
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  29
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  29
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  30
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  30
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  31
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  31
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  32
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  32
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  33
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  33
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  34
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  34
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  35
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  35
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  36
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  36
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  37
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  37
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  38
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  38
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  39
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  39
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  40
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  40
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  41
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  41
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  42
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  42
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  43
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  43
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  44
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  44
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  45
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  45
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  46
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  46
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  47
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  47
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  48
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  48
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  49
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  49
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            HY layer  50
+  4.5 
+INTERNAL   1.000E-00 (FREE)    0            VKA layer  50
+  4.5 
