@@ -1,0 +1,1292 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.0.2-Kore" >
+    <title></title>
+    <mapcanvas>
+        <units>degrees</units>
+        <extent>
+            <xmin>-2140806.982174</xmin>
+            <ymin>3355684.659800</ymin>
+            <xmax>-2114316.011406</xmax>
+            <ymax>3369633.716000</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                <srsid>3344</srsid>
+                <srid>4326</srid>
+                <epsg>4326</epsg>
+                <description>WGS 84</description>
+                <projectionacronym>longlat</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>true</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend>
+        <legendlayer open="true" checked="Qt::Checked" name="str30000_Simp12_Split_Decomp" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str30000_Simp12_Split_Decomp20241111111402262" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="str30000_Simp12_Split" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str30000_Simp12_Split20241111111402128" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="str30000_Simp12" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str30000_Simp1220241111111402018" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="str30000" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str3000020241111111401864" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="MergeFeatures" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="MergeFeatures20241111111401765" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cat30000_Dissolve_PolyLine_Simp24_Split" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="cat30000_Dissolve_PolyLine_Simp24_Split20241111111401663" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cat30000_Dissolve_PolyLine_Simp24" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="cat30000_Dissolve_PolyLine_Simp2420241111111401554" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cat30000_Dissolve_PolyLine" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="cat30000_Dissolve_PolyLine20241111111401436" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cat30000_Dissolve" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="cat30000_Dissolve20241111111401334" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cat30000" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="cat3000020241111111401175" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="str50000" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str5000020241111111321113" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="str10108" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str1010820241111111320934" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="str" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="str20241111111320762" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="lnk30000" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="lnk3000020241111111320634" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="fill" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="fill20241111111320391" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="fdr" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="fdr20241111111320253" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="fac" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="fac20241111111320072" visible="1" />
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="cat30000" >
+            <filegroup open="false" hidden="true" >
+                <legendlayerfile isInOverview="1" layerid="cat3000020241111111319920" visible="1" />
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <Composer>
+        <ComposerMap previewMode="Rectangle" >
+            <Extent ymin="3.35568e+06" xmin="-2.14081e+06" ymax="3.37435e+06" xmax="-2.11432e+06" />
+            <ComposerItem width="105" x="52.78698224852072" y="59.02958579881657" height="74" frame="true" outlineWidth="0.3" zValue="1" >
+                <FrameColor alpha="255" red="0" blue="0" green="0" />
+                <BackgroundColor alpha="255" red="255" blue="255" green="255" />
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" titleFont="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" layerFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="3" iconLabelSpace="2" itemFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" >
+            <Model>
+                <LayerItem layerId="MergeFeatures20241111111401765" text="MergeFeatures" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="115" blue="242" green="17" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="cat3000020241111111319920" text="cat30000" >
+                    <RasterItem layerId="cat3000020241111111319920" text="" />
+                </LayerItem>
+                <LayerItem layerId="cat3000020241111111401175" text="cat30000" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="0" blue="0" green="0" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="164" blue="94" green="97" />
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="cat30000_Dissolve20241111111401334" text="cat30000_Dissolve" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="0" blue="0" green="0" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="136" blue="194" green="236" />
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="cat30000_Dissolve_PolyLine20241111111401436" text="cat30000_Dissolve_PolyLine" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="179" blue="17" green="150" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="cat30000_Dissolve_PolyLine_Simp2420241111111401554" text="cat30000_Dissolve_PolyLine_Simp24" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="234" blue="155" green="231" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="cat30000_Dissolve_PolyLine_Simp24_Split20241111111401663" text="cat30000_Dissolve_PolyLine_Simp24_Split" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="35" blue="120" green="67" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="fac20241111111320072" text="fac" >
+                    <RasterItem layerId="fac20241111111320072" text="" />
+                </LayerItem>
+                <LayerItem layerId="fdr20241111111320253" text="fdr" >
+                    <RasterItem layerId="fdr20241111111320253" text="" />
+                </LayerItem>
+                <LayerItem layerId="fill20241111111320391" text="fill" >
+                    <RasterItem layerId="fill20241111111320391" text="" />
+                </LayerItem>
+                <LayerItem layerId="lnk3000020241111111320634" text="lnk30000" >
+                    <RasterItem layerId="lnk3000020241111111320634" text="" />
+                </LayerItem>
+                <LayerItem layerId="str1010820241111111320934" text="str10108" >
+                    <RasterItem layerId="str1010820241111111320934" text="" />
+                </LayerItem>
+                <LayerItem layerId="str20241111111320762" text="str" >
+                    <RasterItem layerId="str20241111111320762" text="" />
+                </LayerItem>
+                <LayerItem layerId="str3000020241111111401864" text="str30000" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="127" blue="159" green="148" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="str30000_Simp1220241111111402018" text="str30000_Simp12" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="167" blue="79" green="128" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="str30000_Simp12_Split20241111111402128" text="str30000_Simp12_Split" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="216" blue="147" green="231" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="str30000_Simp12_Split_Decomp20241111111402262" text="str30000_Simp12_Split_Decomp" >
+                    <VectorClassificationItem text="" >
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <outlinecolor red="226" blue="50" green="218" />
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="0" />
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="str5000020241111111321113" text="str50000" >
+                    <RasterItem layerId="str5000020241111111321113" text="" />
+                </LayerItem>
+            </Model>
+            <ComposerItem width="82" x="188.6745562130178" y="-9.698224852071007" height="242" frame="true" outlineWidth="0.3" zValue="2" >
+                <FrameColor alpha="255" red="0" blue="0" green="0" />
+                <BackgroundColor alpha="255" red="255" blue="255" green="255" />
+            </ComposerItem>
+        </ComposerLegend>
+        <Composition paperWidth="297" paperHeight="210" />
+    </Composer>
+    <projectlayers layercount="18" >
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>MergeFeatures20241111111401765</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\MergeFeatures.shp</datasource>
+            <layername>MergeFeatures</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="115" blue="242" green="17" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>cat3000020241111111319920</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\cat30000.asc</datasource>
+            <layername>cat30000</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>2</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>cat3000020241111111401175</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\cat30000.shp</datasource>
+            <layername>cat30000</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>catNum</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="164" blue="94" green="97" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>cat30000_Dissolve20241111111401334</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\cat30000_Dissolve.shp</datasource>
+            <layername>cat30000_Dissolve</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>PolyID</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="0" blue="0" green="0" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="136" blue="194" green="236" />
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>cat30000_Dissolve_PolyLine20241111111401436</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\cat30000_Dissolve_PolyLine.shp</datasource>
+            <layername>cat30000_Dissolve_PolyLine</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>Field</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="179" blue="17" green="150" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>cat30000_Dissolve_PolyLine_Simp2420241111111401554</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\cat30000_Dissolve_PolyLine_Simp24.shp</datasource>
+            <layername>cat30000_Dissolve_PolyLine_Simp24</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>ARCID</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="234" blue="155" green="231" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>cat30000_Dissolve_PolyLine_Simp24_Split20241111111401663</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\cat30000_Dissolve_PolyLine_Simp24_Split.shp</datasource>
+            <layername>cat30000_Dissolve_PolyLine_Simp24_Split</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="35" blue="120" green="67" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>fac20241111111320072</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\fac.asc</datasource>
+            <layername>fac</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-26133</min>
+                        <max>30708</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>fdr20241111111320253</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\fdr.asc</datasource>
+            <layername>fdr</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>1</min>
+                        <max>8</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>fill20241111111320391</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\fill.asc</datasource>
+            <layername>fill</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-3.40282e+38</min>
+                        <max>6272.34</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-340282000000000014192072600942972764160.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-340282000000000014192072600942972764160.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-340282000000000014192072600942972764160.000000" blue="-340282000000000014192072600942972764160.000000" green="-340282000000000014192072600942972764160.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>lnk3000020241111111320634</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\lnk30000.asc</datasource>
+            <layername>lnk30000</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>1</min>
+                        <max>2</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>str1010820241111111320934</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\str10108.asc</datasource>
+            <layername>str10108</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>1</min>
+                        <max>1</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>str20241111111320762</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\str.asc</datasource>
+            <layername>str</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>1</min>
+                        <max>1</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>str3000020241111111401864</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\str30000.shp</datasource>
+            <layername>str30000</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>SegNum</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="127" blue="159" green="148" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>str30000_Simp1220241111111402018</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\str30000_Simp12.shp</datasource>
+            <layername>str30000_Simp12</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>ARCID</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="167" blue="79" green="128" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>str30000_Simp12_Split20241111111402128</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\str30000_Simp12_Split.shp</datasource>
+            <layername>str30000_Simp12_Split</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="216" blue="147" green="231" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0" >
+            <id>str30000_Simp12_Split_Decomp20241111111402262</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\VectorProcessing\str30000_Simp12_Split_Decomp.shp</datasource>
+            <layername>str30000_Simp12_Split_Decomp</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System" >ogr</provider>
+            <displayfield>LeftEle</displayfield>
+            <label>0</label>
+            <attributeactions/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <outlinecolor red="226" blue="50" green="218" />
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="0" />
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <labelattributes>
+                <label fieldname="" text="Label" />
+                <family fieldname="" name="MS Shell Dlg 2" />
+                <size fieldname="" units="pt" value="12" />
+                <bold fieldname="" on="0" />
+                <italic fieldname="" on="0" />
+                <underline fieldname="" on="0" />
+                <color fieldname="" red="0" blue="0" green="0" />
+                <x fieldname="" />
+                <y fieldname="" />
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname="" />
+                <angle fieldname="" value="0" auto="0" />
+                <alignment fieldname="" value="center" />
+                <buffercolor fieldname="" red="255" blue="255" green="255" />
+                <buffersize fieldname="" units="pt" value="1" />
+                <bufferenabled fieldname="" on="" />
+                <multilineenabled fieldname="" on="" />
+            </labelattributes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" >
+            <id>str5000020241111111321113</id>
+            <datasource>C:\Users\huan1428\Documents\esci5331_hydro_modeling\assignment_7\pihm\Nov1120241019\RasterProcessing\str50000.asc</datasource>
+            <layername>str50000</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs </proj4>
+                    <srsid>3344</srsid>
+                    <srid>4326</srid>
+                    <epsg>4326</epsg>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider></provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false" />
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false" />
+                <mRGBMinimumMaximumEstimated boolean="true" />
+                <mUserDefinedGrayMinimumMaximum boolean="false" />
+                <mGrayMinimumMaximumEstimated boolean="true" />
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>1</min>
+                        <max>1</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true" >-1.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-1.000000" percentTransparent="100" />
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-1.000000" blue="-1.000000" green="-1.000000" percentTransparent="100" />
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <Gui>
+            <SelectionColorBluePart type="int" >0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int" >255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int" >255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int" >255</SelectionColorRedPart>
+            <SelectionColorGreenPart type="int" >255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int" >255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int" >2</DecimalPlaces>
+            <Automatic type="bool" >true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
